@@ -1,0 +1,209 @@
+:root{
+    --primary-text-color: #FFFFFF;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --title-color: #212121;
+    --footer-link-color: rgba(255, 255, 255, 0.6);
+    --black-color: #000000;
+
+    --primary-background-color: #FFFFFF;
+    --secondary-background-color:#F5F4FA;
+    --banner-footer-color: #2F303A;
+}
+
+body {
+    background-color: var(--primary-background-color);
+    color: var(--secondary-text-color);
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+       
+}
+.list{/*клас для зкидання стилля*/
+    list-style: none;
+}
+
+/*колір основного тексту #FFFFFF;*/
+/*колір вторичного тексту  #757575 */
+/*акцент  #2196F3;*/
+/*колір заголовків #212121;*/
+/*чорний #000000*/
+/* колір контактів у футері rgba(255, 255, 255, 0.6);*/
+
+/*основний колір фону #FFFFFF; */
+/* banner and footer #2F303A;*/
+/* вторичний колір фону #F5F4FA;*/
+
+
+.logo{
+    color: var(--black-color);
+    font-family: 'Raleway', sans-serif ;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19; /*31/26=1.1923*/
+    text-decoration: none;
+}
+.logo span{
+    color: var(--accent-color);
+}
+.site-nav .link{
+    color: var(--title-color);
+
+    font-weight: 500;
+    line-height: 1.4; /*16/14=1.142*/
+    letter-spacing: 0.02em;
+    text-decoration: none;
+} 
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.contact-nav .link{
+    color: var(--secondary-text-color);
+
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus{
+    color: var(--accent-color);
+}
+.site-nav .link.current{
+    color:var(--accent-color);
+}
+
+/*HERO*/
+.hero{
+    background-color:var(--banner-footer-color);
+    
+}
+.hero .hero-title{
+    color: var(--primary-text-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.button{ /*базовий клас*/
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+} 
+.button.primary{
+    color: var(--primary-text-color);
+    background-color:var(--accent-color);
+}
+
+/*SECTION index.html*/
+.section{
+
+}
+.feature-list .title,
+.team-list .title {
+    color: var(--title-color);
+}
+.feature-list .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.section-title{
+    color: var(--title-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.team-list .title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+}
+.team-list .text{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;}
+
+.our-team {
+    background-color: var(--secondary-background-color);
+}
+
+/*portfolio.html*/
+.button{
+    color:var(--title-color);
+    background-color: var(--secondary-background-color);
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+.button:focus,
+.button:hover{
+    color: var(--primary-text-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+.portfolio-items .link{
+    text-decoration: none;
+}
+.portfolio-items .title{
+    color:var(--title-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+.portfolio-items .text{
+    color: var(--secondary-text-color);
+
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+}
+
+
+/*FOOTER*/
+.page-footer {
+    background-color: var(--banner-footer-color);
+}
+.page-footer .logo{
+    color:var(--primary-text-color);
+}
+.address-list .link,
+.address-list .link-address{
+    font-style: normal;
+    text-decoration: none;
+}
+.address-list .link{
+    color: var(--footer-link-color);  
+}
+.address-list .link-address{
+    color: var(--primary-text-color);  
+}
+.address-list .link-address:hover,
+.address-list .link-address:focus,
+.address-list .link:hover,
+.address-list .link:focus {
+    color: var(--accent-color);
+}
+
+
+
+
