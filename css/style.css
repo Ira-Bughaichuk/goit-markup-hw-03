@@ -5,6 +5,7 @@
     --title-color: #212121;
     --footer-link-color: rgba(255, 255, 255, 0.6);
     --black-color: #000000;
+    --header-border-color: #ECECEC;
 
     --primary-background-color: #FFFFFF;
     --secondary-background-color:#F5F4FA;
@@ -64,6 +65,7 @@ p{
 
 .page-header {
     padding: 32px 0;
+    border-bottom: 1px solid var(--header-border-color);
 }
 
 .header-block{
