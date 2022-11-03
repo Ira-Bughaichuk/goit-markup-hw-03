@@ -325,6 +325,10 @@ text-align: center;
 .footer-logo{
     display: inline-block;
     margin-bottom: 20px;
+    color: var(--accent-color);
+}
+.footer-logo span{
+    color: var(--primary-text-color);
 }
 .page-footer .logo{
     color:var(--primary-text-color);
