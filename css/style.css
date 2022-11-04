@@ -6,6 +6,7 @@
     --footer-link-color: rgba(255, 255, 255, 0.6);
     --black-color: #000000;
     --header-border-color: #ECECEC;
+    --port-border-color:#EEEEEE;
 
     --primary-background-color: #FFFFFF;
     --secondary-background-color:#F5F4FA;
@@ -74,6 +75,7 @@ p{
 }
 .header-navigation{
     display: flex;
+    align-items: center;
 }
 .header-logo{
     margin-right: 92px;
@@ -92,6 +94,7 @@ p{
 }
 .site-nav{
     display: flex;
+  
 }
 .site-nav .link{
     color: var(--title-color);
@@ -169,6 +172,7 @@ p{
     border-radius: 4px;
     padding: 10px 32px;
     margin: 0 auto;
+    cursor: pointer;
 } 
 
 .button.primary{
@@ -179,7 +183,6 @@ p{
 /*SECTION index.html*/
 .section{
     padding: 94px 0;
-
 }
 .feature-list{
     display: flex;
@@ -224,7 +227,9 @@ text-align: center;
     background-color: var(--secondary-background-color);
 }
 /**/
-
+.section-work{
+    padding-bottom: 94px;
+}
 .work-list{
     display: inline-flex;
     column-gap: 30px;
@@ -294,6 +299,7 @@ text-align: center;
 }
 .portfolio-content{
     padding: 20px 24px;
+    border:1px solid var(--port-border-color);
 }
 .portfolio-content .link{
     text-decoration: none;
@@ -333,15 +339,14 @@ text-align: center;
 .page-footer .logo{
     color:var(--primary-text-color);
 }
-.address-item .link:not(:last-child){
+
+.address-list .address-item:not(:last-child){
     margin-bottom: 9px;
 }
 .address-list .link,
 .address-list .link-address{
     font-style: normal;
-    text-decoration: none;
-  
-    
+    text-decoration: none;   
 }
 .address-list .link{
     color: var(--footer-link-color);
